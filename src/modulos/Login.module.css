@@ -1,130 +1,130 @@
 .formulario{
-    width:35%;
-    height: 90%;
-    border-radius: 7%;
-    border-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #02194d;
-    color:white;
+  width:35%;
+  height: 90%;
+  border-radius: 7%;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #02194d;
+  color:white;
 }
 
 .texto{
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap:1rem;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:1rem;
 }
 
 .texto span{
-    position: absolute;
-    z-index: 1;
-    font-size: 50px;
-    color:white;
-    border-radius:100%;
-    background: #043199;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Comfortaa', cursive;
-   
+  position: absolute;
+  z-index: 1;
+  font-size: 50px;
+  color:white;
+  border-radius:100%;
+  background: #043199;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Comfortaa', cursive;
+ 
 }
 
 .texto img{
-    width: 50%;
-    position:relative;
-    animation: 1s infinite alternate slidein;
+  width: 50%;
+  position:relative;
+  animation: 1s infinite alternate slidein;
 }
 
-  @keyframes slidein {
-    from {
-      top: -24px;
-    }
-  
-    to {    
-      top: 24px;
-    }
+@keyframes slidein {
+  from {
+    top: -24px;
   }
 
+  to {    
+    top: 24px;
+  }
+}
+
 .inputs{
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap:2rem;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:2rem;
 }
 
 .inputs input{
-    width:90%;
-    height: 3rem;
-    border-style: none;
-    border-radius:5px;
-    background:#043199;
-    color:white;
+  width:90%;
+  height: 3rem;
+  border-style: none;
+  border-radius:5px;
+  background:#043199;
+  color:white;
 }
 
 .enviar{
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .enviar button{
-    width: 85%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-style:none;
-    background:#043199;
-    color:white;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Comfortaa', cursive;
-    transition-duration:1000ms ;
+  width: 85%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style:none;
+  background:#043199;
+  color:white;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  transition-duration:1000ms ;
 }
 
 .enviar button:hover{
-    width: 50%;
-    height: 25%;
-    transition-duration:1000ms ;
-    box-shadow: 1px 1px 10px 10px #043199;
+  width: 50%;
+  height: 25%;
+  transition-duration:1000ms ;
+  box-shadow: 1px 1px 10px 10px #043199;
 }
 
-  @media (max-width: 900px) {
-    /*Responcive*/
-     
-    .formulario{
-        width:90%;
-        height: 90%;
-    }
-      }
-      @media (min-height: 700px) {
-        /*Responcive*/
-            .inputs{
-                width: 100%;
-                height: 40%;
-            }
-              
-            .inputs input{
-               height:4rem;
-            }
+@media (max-width: 900px) {
+ 
+.formulario{
+    width:90%;
+    height: 90%;
+}
+  }
+  @media (min-height: 700px) {
 
-             .enviar{
-                width: 100%;
-                height: 23%;
-             }
-             .texto img{
-              width: 40%;
-           }
-            @media (min-height: 910px) {
-              
-            }
-          }
+        .inputs{
+            width: 100%;
+            height: 40%;
+        }
+          
+        .inputs input{
+           height:4rem;
+        }
+
+         .enviar{
+            width: 100%;
+            height: 23%;
+         }
+         .texto img{
+          width: 40%;
+       }
+        @media (min-height: 910px) {
+          
+        }
+      }
+    
