@@ -26,7 +26,7 @@
 <h1 align="center">Ver Mas</h1>
    <p align="center">
    Si te interesa estar al tanto de este proyecto, puedes entrar al Notion Donde esta disponible la bitacora del proyecto.
-   </p>soy gei
+   </p>
    <img src="https://play-lh.googleusercontent.com/ufYLf3Gv1NmQGuRfCEEE8hdIWX923H04XFNJ0WQwmQeOqBhnacIj6hNAAoVAfHQdxA=w240-h480" width="100" align="center"/>
    https://statuesque-hugger-f52.notion.site/Biblioteca-3b1aaa4688e444539376c086020d8693
 </div>
