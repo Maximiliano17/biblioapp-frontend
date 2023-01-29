@@ -98,7 +98,7 @@
     box-shadow: 1px 1px 10px 10px #043199;
 }
 
-  @media (max-width: 945px) {
+  @media (max-width: 900px) {
     /*Responcive*/
      
     .formulario{
@@ -106,14 +106,8 @@
         height: 90%;
     }
       }
-      @media (min-height: 910px) {
+      @media (min-height: 700px) {
         /*Responcive*/
-         
-        .formulario{
-            width:90%;
-            height: 80%;
-        }
-                    
             .inputs{
                 width: 100%;
                 height: 40%;
@@ -127,10 +121,10 @@
                 width: 100%;
                 height: 23%;
              }
-    
+             .texto img{
+              width: 40%;
+           }
             @media (min-height: 910px) {
-              .texto img{
-               width: 30%;
-            }
+              
             }
           }

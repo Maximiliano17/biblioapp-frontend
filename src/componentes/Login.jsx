@@ -22,8 +22,6 @@ function Login(){
     event.preventDefault();
         const datos = new FormData(event.target);
            const datosCompletos = Object.fromEntries(datos.entries());
-               console.log(JSON.stringify(datosCompletos));
-               window.location="Inicio.jsx";
 }
 
   return (
@@ -58,7 +56,6 @@ function Login(){
             </button>
          </section>
        </form>
-       <script src="./main.js"></script>
       </>
     )
   }

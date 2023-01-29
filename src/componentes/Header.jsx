@@ -12,7 +12,7 @@ const Nav = (event) => {
       <>
          <header className={styles.header}>
           <section className={styles.logo}>
-            <p>Logo</p>
+            <p>BlilioAPP</p>
           </section>
           <section className={styles.items}>
             <nav className={styles.lista}>
@@ -23,6 +23,7 @@ const Nav = (event) => {
               <Link className={styles.link} to="/home">Home</Link>
               <Link className={styles.link} to="/home">Libros</Link>
               <Link className={styles.link} to="/home">Noticias</Link>
+              <Link className={styles.link} to="/admin">Modo sexo</Link>
              </ul>  
              <section className={styles.nav}>
               <img onClick={Nav} src={img} />
